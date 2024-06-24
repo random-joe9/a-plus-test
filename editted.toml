@@ -1,0 +1,1843 @@
+
+[[questions]]
+question_number = "PM A+ 1 - 1 1"
+question = "Which item is NOT likely to be found in a technician's toolkit?"
+answers = ['EMP']
+alternatives = ['Thumb drive', 'Nut driver', 'Voltage tester']
+explanation = "Electromagnetic pulse (EMP) is not a tool, it is a cause of problems. All of the other choices are common tools used by technicians."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 1 - 1 2"
+question = "A tech might use this tool to check power supplied by a wall socket:"
+answers = ['Voltmeter']
+alternatives = ['RFI meter', 'ESD meter', 'Tweezers']
+explanation = "A voltmeter can test wall power. Radio frequency interference (RFI) and electrostatic discharge (ESD) meters don't test wall power. Using tweezers to test for power can cause equipment damage, injury, or death."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 1 - 1 3"
+question = "What should a tech do when solving a problem is beyond their ability?"
+answers = ['Escalate the issue']
+alternatives = ['Ask the customer for advice', 'Disassemble the system and rebuild it from scratch', "Tell the customer that the problem can't be fixed"]
+explanation = "In order to solve the problem quickly, escalating the issue is often good for the customer and is an opportunity for the technician to learn. The other options are poor choices for a technician."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 1 - 1 4"
+question = "Which primary PC component is an output device?"
+answers = ['Printer']
+alternatives = ['Microphone', 'Web camera', 'Keyboard']
+explanation = "A printer is an output device. Microphones, keyboards, and web cameras input information to the computer, so they are input devices."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 1 - 1 5"
+question = "Which of the following is NOT a part of a PC?"
+answers = ['TPU']
+alternatives = ['GPU', 'RAM', 'CPU']
+explanation = "TPU is a made-up term. Graphics processing units (GPUs) send the display signal to the monitor, random access memory (RAM) sticks are where short-term memory is stored, and the central processing unit (CPU) is the \"brain\" of the computer. "
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 1 - 1 6"
+question = "Many cities have a makerspace where you can get hands-on with hardware at little to no cost."
+answers = [ 'True']
+alternatives = [ 'False']
+explanation = "Makerspaces are facilities for making, learning, and exploring technology that use both high tech and no tech tools. Many cities have makerspaces located within colleges and public libraries. "
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 1 - 1 7"
+question = "When an instruction is sent to the CPU in a binary pattern, how does the CPU know what instruction the pattern means?"
+answers = ['Code book']
+alternatives = ['External data bus', 'Register', 'Translator']
+explanation = "The CPU has an internal code book that identifies each instruction pattern. A register is a memory location inside a CPU. The external data bus is the set of wires that carry data and instructions between the CPU and RAM. In this context, translator is a made-up term."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 1 - 1 8"
+question = "Which of the following is NOT an example of an Instruction Set Architecture (ISA)?"
+answers = ['x84']
+alternatives = ['x64', 'x86', 'x86-64']
+explanation = "x84 is not an ISA standard. x64, x86, and x86-64 are all ISA standards."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 1 - 1 9"
+question = "In the following example, which part of the CPU information corresponds to the generation?\nIntel Core i9 12900K"
+answers = ['12']
+alternatives = ['Intel', 'Core i9', '900']
+explanation = "12 corresponds to the generation. Intel is the brand, Core i9 is the tier, 900 is the model, and K is the suffix."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 1 - 1 10"
+question = "Before installing a CPU, what's the best way to protect it?"
+answers = ['ESD mat']
+alternatives = ['OEM fan', 'Thermal paste', 'Orientation notch']
+explanation = "An electrostatic discharge (ESD) mat protects chips and electronics from electrostatic discharges while you're installing the equipment. A fan keeps the chip cool after it has been installed. Thermal paste helps transfer heat from the CPU to the heat sink/fan after it has been installed. The orientation notch identifies which direction the CPU should face so that it seats correctly in the socket."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 1 - 4 1"
+question = "DDR4 RAM modules have how many pins?"
+answers = ['288']
+alternatives = ['168', '240', '184']
+explanation = "DDR4 RAM sticks have 288 pins. SDRAM has 128 pins, DDR has 184 pins, DDR2 and DDR3 have 240 pins. "
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 1 - 4 3"
+question = "Which RAM would typically be installed into a laptop computer?"
+answers = ['SO-DIMMs']
+alternatives = ['ECC', 'SPD RAM', 'SDRAM']
+explanation = "Laptops and other small form factor motherboards typically use SO-DIMM memory modules. ECC RAM is usually found in server-grade computers. SDRAM is an early generation of RAM technology but it is not specific to laptops. There is no such thing as SPD RAM."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 1 - 4 4"
+question = "Which types of RAM can function even if one of its memory chips fails?"
+answers = ['ECC']
+alternatives = ['SO-DIMMs', 'Double-sided RAM', 'Dual-Channel RAM']
+explanation = "Error correction code (ECC) RAM and parity RAM can function with a failed memory chip. SO-DIMMs are small outline (form factor) memory modules.  Dual-channel is technology that supports simultaneous access to multiple RAM modules. Double-sided RAM are RAM modules that are organized into 4 bits."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 1 - 4 5"
+question = "In what order should memory slots be filled?"
+answers = ['Whatever order the motherboard manual specifies']
+alternatives = ['Closest to the CPU to farthest from the CPU', 'Alternate slots starting farthest from the CPU', 'Farthest from the CPU to closest to the CPU']
+explanation = "The best practice is to follow whatever the motherboard manual specifies. Every motherboard is slightly different, so what works in one may not work in another."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 1 - 4 6"
+question = "What should a technician do to improve performance if the virtual memory file is constantly full?"
+answers = ['Add more RAM to the computer']
+alternatives = ['Increase the size of the virtual memory file', 'Close some applications', 'The technician should do nothing; virtual memory works best when the file is full']
+explanation = "The best answer for performance is to add RAM. It is generally recommended to let the operating system manage the size of the virtual memory file.  Closing applications is a short-term solution but eventually, the user will reopen them. Because virtual memory is slower than physical memory, using large amounts of virtual memory will slow the system down significantly."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 1 - 4 7"
+question = "You are using the CompTIA Troubleshooting Methodology to determine the cause of some faulty RAM. You theorize that one or more RAM modules might not be properly seated. You test the theory, and it seems like a probable assumption. What is your next step?"
+answers = ['Implement the solution by reseating the RAM ']
+alternatives = ['Identify the problem by removing all hardware components from the motherboard', 'remove the RAM and replace with new modules', 'Verify full system functionality by rebooting the PC ']
+explanation = "CompTIA’s Troubleshooting Methodology offers a simplified list of steps that can help you troubleshoot and resolve almost any issue that you will run in to. After establishing and testing a theory, the next step would be to establish a plan of action to resolve the problem and implement the solution. Since we surmised that our RAM sticks weren’t seated properly, the solution to the would be to reseat the RAM."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 1 - 5 1"
+question = "BIOS programs that enable hardware to function are called what?"
+answers = ['CMOS']
+alternatives = ['POST', 'Services', 'Device drivers']
+explanation = "Services are BIOS programs that make hardware functional. POST is a testing program in BIOS. CMOS is a type of memory chip. Device drivers make hardware function in an operating system."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 1 - 5 3"
+question = "What is the primary purpose of POST?"
+answers = ['It performs diagnostic tests before booting the operating system']
+alternatives = ['It is an add-on card to test the computer', 'It applies power to the CPU', 'It enables hardware to function before the OS boots']
+explanation = "POST is a program in the computer's BIOS chip that performs diagnostics prior to the computer booting an operating system. POST can send messages to a POST card but the card does not contain the POST program. A power supply provides power to the CPU. POST does not enable hardware, it tests hardware."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 1 - 5 4"
+question = "For which failures would you expect POST to issue beep codes?"
+answers = ['Video card']
+alternatives = ['Missing keyboard', 'No CPU installed', 'No printer found']
+explanation = "Beep codes are issued when error messages can't be displayed on the screen, thus a bad video card would cause beep codes. Missing keyboard, printers, and network connection failures can all be shown on a screen. The POST program will not run at all without a CPU installed (and thus would not generate a beep code)."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 1 - 5 5"
+question = "How would a technician start the system setup program?"
+answers = ['Press a certain key before the computer boots the operating system']
+alternatives = ['Touch the system setup button on the front panel of the computer', 'Turn off the power switch and unplug the computer, then plug in the computer and press the power switch to automatically start the setup program', 'Enter the administrator password during bootup']
+explanation = "Every computer has a certain key on the keyboard that must be pressed before the OS boots to launch the setup program. There is no automatic procedure or button to start the setup program. The administrator password is not entered until after the setup program has started."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 1 - 5 6"
+question = "To prevent random people from booting the OS, a technician should do what?"
+answers = ['Set a user password']
+alternatives = ['Set an administrator password', 'Flash the BIOS chip', 'Remove the CMOS battery']
+explanation = "A user password prevents the OS from booting until the password is entered. The administrator password prevents access to the setup program until the password is entered. Flashing the BIOS is for fixing bugs and adding features to the contents of the BIOS chip. Removing the CMOS battery might prevent the OS from booting, but it is not the best answer."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 1 - 5 7"
+question = "Which is more likely to cause a computer's reported time to fall behind?"
+answers = ['The CMOS battery is weak or failing']
+alternatives = ['Earth is spinning more slowly', 'The computer was not programmed to recognize leap year', 'The wall voltage is too low']
+explanation = "A weak or failed CMOS battery will slow the system clock and may cause other problems. Missing a leap year won't affect the computer's clock rate. Low wall voltage is adjusted in the power supply; if it is too low, the computer won't boot."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 1 - 5 8"
+question = "Which battery provides power to the RTC and CMOS chip?"
+answers = ['CR2032']
+alternatives = ['CR3022', 'AA Battery', '9 Volt Battery']
+explanation = "CR2032 is the standard CMOS battery. The other choices are not normally used for CMOS in a computer."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 1 - 6 1"
+question = "The largest motherboard form factor is?"
+answers = ['ATX']
+alternatives = ['Micro-ATX', 'ITX', 'Mini-ITX']
+explanation = "In order of largest to smallest, the form factors are ATX, Micro-ATX, ITX, and Mini-ITX."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 1 - 6 2"
+question = "Which is  'True' of an I/O shield?"
+answers = ['The I/O shield is customized to fit the motherboard I/O area']
+alternatives = ['The I/O shield must be customized to fit the case', 'The dimensions of the I/O shield for a Micro-ATX motherboard are 9.6 inches by 9.6 inches', 'All I/O shields are standardized to fit all motherboard I/O areas']
+explanation = "I/O shields are customized to fit the motherboard I/O area.  I/O shields have standard dimensions to fit standard form factor cases.  Micro-ATX motherboards are 9.6 x 9.6, not their I/O shields. Different motherboards have different I/O ports so it is impossible to create a one-size-fits-all I/O shield for different motherboards."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 1 - 6 3"
+question = "Which chip is typically found on modern motherboards?"
+answers = ['Southbridge']
+alternatives = ['CMOS battery', 'Second bridge', 'Northbridge']
+explanation = "The southbridge is typically found on modern motherboards. The functions of the old northbridge chip have been moved onto modern CPUs. The CMOS battery is mounted on the motherboard, but it is not a chip, it is a battery. Second bridge is a made-up term."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 1 - 6 4"
+question = "The job of the southbridge is to act as the interface between the CPU and what?"
+answers = ['Slow hardware']
+alternatives = ['Fast hardware', 'RAM', 'Video card']
+explanation = "The southbridge interfaces slow hardware such as hard drives and keyboards to the CPU. The CPU interacts directly with fast hardware including RAM and video cards."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 1 - 6 5"
+question = "Which is typically not found on a motherboard?"
+answers = ['SATA cables']
+alternatives = ['PCIe slots', 'Voltage regulators', 'Power connectors']
+explanation = "SATA cables attach to connectors on the motherboard, but they are not part of the motherboard. PCIe slots, voltage regulators, and power connectors are all found on motherboards."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 1 - 6 6"
+question = "The small, metal items that screw into a case and keep the motherboard from touching the case are called:"
+answers = ['Standoffs']
+alternatives = ['Dongles', 'Slots', 'I/O shields']
+explanation = "Standoffs are the screws used to keep the motherboard from touching the case so that there isn't an electric short, which could damage the components. Slots are for plugging in RAM and expansion cards. I/O shields protect the motherboard from dust and debris."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 1 - 6 7"
+question = "How can you protect your system from ESD while installing the motherboard?"
+answers = ['Antistatic wrist strap']
+alternatives = ['I/O shields', 'Drinking hot coffee over your system', 'Use fans to blow cool air throughout the room']
+explanation = "Antistatic (or ESD) wrist straps protect from ESD by dispersing the electricy generated by your body so it doesn't get dispersed into the components instead. I/O shields protect the motherboard from dust and debris. Drinking hot coffee over a system you're building is NEVER a good idea, as liquids can ruin electronic equipment. Using fans to blow cool air throughout the room isn't necessary at this point of your PC build, since none of the heat-producing componenets are installed and turned on yet."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 1 - 6 8"
+question = "Which must be done before installing a motherboard into a case?"
+answers = ['Install the I/O shield']
+alternatives = ['Install case fans', 'Install the SATA cables', 'Install a video card into a PCIe slot']
+explanation = "The I/O shield must be installed before the motherboard is installed; it won't fit after the board is in place. Case fans and SATA cables can be installed at any time. Installing a video card into the motherboard may make it challenging or impossible to install the motherboard into the case."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 1 - 7 1"
+question = "A power supply with optional cable plug-ins is known as a what?"
+answers = ['Modular power supply']
+alternatives = ['Soldered power supply', 'Option power supply', 'Flex power supply']
+explanation = "A modular power supply simplifies cable management by enabling you to add and remove optional plug-in cables as needed to power components. Option power supply is a made-up term. A Flex power supply is a small-form-factor power supply. A soldered power supply has all of its power cables soldered to the power supply unit (PSU)."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 1 - 7 2"
+question = "What does the on/off switch on a power supply do?"
+answers = ['Provides wall power to the power supply']
+alternatives = ['Turns on the computer', 'Applies power to the "power good" wire', 'Nothing; power supplies autodetect power and turn on or off accordingly']
+explanation = "It allows power to flow from the plug into the power supply. The computer has its own on/off switch. The power supply powers the \"power good\" wire (if the power is good) but the power supply switch does not do this directly. Power supplies (mostly) do not autodetect power and then react."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 1 - 7 3"
+question = "Which is a primary characteristic to be considered when choosing a power supply?"
+answers = ['Efficiency']
+alternatives = ['Cable lengths', 'UPS compatibility', 'Power sag rating']
+explanation = "Efficiency is a major consideration. Cable length is important, but most power cables are of sufficient length and don't typically need to be measured or checked. Power supplies do not have a sag rating. UPS compatibility is not a real specification."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 1 - 7 4"
+question = "Which is a primary characteristic to be considered when choosing a power supply?"
+answers = ['Wattage']
+alternatives = ['Trip alert', 'Airflow volume', 'Number of USB power plugs']
+explanation = "Wattage is the primary concern in selecting a power supply. Airflow on a power supply is pre-designed for the maximum capability of the power supply. Power supplies do not have trip alerts or USB power plugs."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 1 - 7 5"
+question = "Normal vacuums are dangerous to use inside of a PC due to their ability to:"
+answers = ['Build up static electricity ']
+alternatives = ['Generate loud noises which interferes with productivity', 'Scrub off thermal paste with the brush nozzle', 'Accidentally suck up capacitors and other components']
+explanation = "Vacuums generate a lot of static electricity, specifically on the plastic areas of the device, including the nozzle. While niche anti-static PC vacuums exist, it is always best to use canned air to blow dust out of your PC.      "
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 1 - 7 6"
+question = "A client’s PC will no longer boot up. You suspect the PSU is the cause. Which of these actions would be appropriate to take to resolve the issue?"
+answers = ['All of the above']
+alternatives = ['Practice proper power handling and then double check all connectors and cables ', 'Verify functionality with a power supply tester ', 'Swap the PSU for a known working one']
+explanation = "We always want to practice proper power handling, especially when dealing with the source of the power, our PSU. Power supply testers can be used to test a PSU and verify that it is functioning as intended. Many technicians keep spares of common components such as PSUs, so that they can swap a known working one into the system and test their theory of probable causation.      "
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 1 - 8 1"
+question = "Mass storage is organized into __________?"
+answers = ['LBAs']
+alternatives = ['Gibibytes', 'Pages', 'Gigabytes']
+explanation = "Storage is organized into Logical Blocks (LBAs). Gigabytes and Gibibytes describe capacity, not organizational structure. Pages are the organizational structure of SSDs but not of all mass storage devices."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 1 - 8 2"
+question = "Which does NOT describe a mass storage device?"
+answers = ['M.1 drive']
+alternatives = ['Optical drive', 'Magnetic disk', 'SSD']
+explanation = "An M.1 drive is not a mass storage device; it is a made-up term that closely resembles the M.2 form factor. Optical drives, magnetic drives, and SSDs are all mass storage."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 1 - 8 3"
+question = "Which is a standard command and connection standard for mass storage devices?"
+answers = ['ATA']
+alternatives = ['LBA', '2.5" form factor', '3.5" form factor']
+explanation = "Advanced Technology Attachment (ATA) is a command and connection standard for mass storage devices. Form factors are not command or connection standards. LBA is an organization structure for mass storage devices."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 1 - 8 4"
+question = "SATA drives use how many wires to transfer data to and from the computer?"
+answers = ['1']
+alternatives = ['8', '4', '2']
+explanation = "SATA is a serial interface; all data moves in sequence (serial) over a single wire. SATA does not use 2, 4, or 8 wires to transfer data."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 1 - 8 5"
+question = "SSDs are organized into logical blocks, but their memory storage cells are called what?"
+answers = ['Pages']
+alternatives = ['Sectors', 'Slots', 'Sockets']
+explanation = "SSD memory cells are called pages. Magnetic drive storage units are called sectors. Slots and sockets are not terms to describe storage units."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 1 - 8 6"
+question = "Which interface is the fastest?"
+answers = ['NVMe']
+alternatives = ['SATA', 'SCSI', 'PATA']
+explanation = "NVMe uses PCIe lanes and is the fastest of these interface choices. PATA is the slowest; SATA and SCSI speeds fall between NVMe and PATA."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 1 - 8 7"
+question = "Combine SCSI with SATA to get ____________?"
+answers = ['SAS']
+alternatives = ['SSCSI', 'M.2', 'SASI']
+explanation = "Serial Attached SCSI (SAS) uses the SATA connector with the SCSI command language. M.2 is a connector interface and form factor. SSCSI and SASI are made up terms."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 1 - 8 8"
+question = "Running SCSI commands over Ethernet is called __________?"
+answers = ['iSCSI']
+alternatives = ['SCSIi', 'eSCSI', 'SCSIe']
+explanation = "iSCSI uses SCSI commands sent over Ethernet. SCSIi, eSCSI, and SCSIe are made up terms."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 1 - 9 1"
+question = "What is the minimum number of drives to perform RAID 5?"
+answers = ['3']
+alternatives = ['2', '4', '5']
+explanation = "It takes a minimum of three drives to create a RAID 5 array."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 1 - 9 2"
+question = "What is the maximum number of drive failures under RAID 6 at which the array will still function?"
+answers = ['2']
+alternatives = ['0', '1', '3']
+explanation = "A RAID 6 array will function with up to two drive failures."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 1 - 9 3"
+question = "Which is an example of a hardware RAID controller?"
+answers = ['Dedicated expansion card']
+alternatives = ['Storage Spaces', 'Dynamic disks', 'Basic disks']
+explanation = "A dedicated RAID controller comes in the form of an expansion card. Storage Spaces is a Microsoft software RAID implementation. Dynamic and basic disks are not RAID controllers."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 1 - 9 4"
+question = "RAID 10 requires how many drives?"
+answers = ['4']
+alternatives = ['3', '2', '8']
+explanation = "RAID 10 requires 4 drives."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 1 - 9 5"
+question = "Which is NOT a Storage Solution RAID configuration?"
+answers = ['RAID 10']
+alternatives = ['Parity', 'Simple', 'Two-way mirror']
+explanation = "Storage Spaces does not have a RAID 10 configuration. Simple (JBOD), two-way mirror, and parity (RAID 5) are all supported configurations under Storage Spaces."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 1 - 9 6"
+question = "What operates a software RAID solution?"
+answers = ['The OS and CPU']
+alternatives = ['A RAID expansion card', 'A RAID controller built into the motherboard', 'The drives in the array']
+explanation = "Software RAID is controlled by the operating system and the CPU. RAID expansion cards and motherboard-based RAID controllers are examples of hardware RAID. Drives don't have built-in RAID controllers."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 1 - 9 7"
+question = "What kind of chip holds a BitLocker key?"
+answers = ['TPM']
+alternatives = ['MPT', 'TMP', 'PTM']
+explanation = "A Trusted Platform Module (TPM) chip holds a BitLocker key. The rest are made-up terms."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 1 - 9 8"
+question = "Which is most likely the result of a corrupted operating system?"
+answers = ['Continuous rebooting']
+alternatives = ['The system attempts to boot from the wrong device', 'Slow performance', 'The hard drive makes a loud clicking noise']
+explanation = "Of the choices here, the most likely result of a corrupt operating system is continuous reboots. Boot order is set in the UEFI/BIOS system setup utility. A corrupt OS can cause crashes and reboots, not slow performance. Hard drive clicking comes from a mechanical failure inside the hard drive."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 1 - 10 1"
+question = "Which is not a valid USB speed?"
+answers = ['1.1 Gbps']
+alternatives = ['12 Mbps', '480 Mbps', '5 Gbps']
+explanation = "1.1 Gbps is not a valid USB speed. USB 1.1 Full Speed runs at 12 Mbps. USB 2.0 Hi Speed runs at 480 Mbps. USB 3 and 3.1 Gen 1 run at 5 Gbps (SuperSpeed)."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 1 - 10 2"
+question = "Each version of USB in a computer has its own what?"
+answers = ['USB controller']
+alternatives = ['USB hub', 'USB peripheral', 'USB Type-B connector']
+explanation = "Each version of USB in a computer has its own USB controller which is then connected to a USB hub. USB Type-B connectors connect to a downstream peripheral (such as a printer). A USB hub is a circuit or device with one or more upstream USB ports. Each version of USB does not have its own peripheral."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 1 - 10 3"
+question = "Most USB peripherals already have a what?"
+answers = ['Windows driver']
+alternatives = ['USB lock', 'HID interface', 'Lightning connector']
+explanation = "Windows comes with drivers for many common USB devices. A USB lock is an unpowered physical plug that secures open USB ports on a computer, not part of a USB peripheral. There is no such thing as an HID interface. USB devices come with USB connectors, not Lightning connectors."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 1 - 10 4"
+question = "Which is not a valid Thunderbolt speed?"
+answers = ['30 Gbps']
+alternatives = ['10 Gbps', '20 Gbps', '40 Gbps']
+explanation = "30 Gbps is not a valid Thunderbolt speed. Thunderbolt 1 runs at 10 Gbps, Thunderbolt 2 runs at 20 Gbps, and Thunderbolt 3 runs at 40 Gbps."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 1 - 10 5"
+question = "Which is a valid Compact Disc capacity?"
+answers = ['74 minutes']
+alternatives = ['74 megabytes', '80 megabytes', '4.37 gigabytes']
+explanation = "74 minutes is a valid CD capacity. The other values are not valid for CDs."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 1 - 10 6"
+question = "The term peripheral refers to both ______ and _______ devices."
+answers = ['input, output ']
+alternatives = ['digital, analog ', 'real, virtual', 'serial, DHCP']
+explanation = "Peripheral is a term used to describe any and all input and output devices that can be connected to a computer. Things like monitors and printers are peripherals that output data, while keyboards and webcams are peripherals that input data.     "
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 1 - 10 7"
+question = "Videoconferencing software allows viewing of remote desktops through a feature known as _____________."
+answers = ['screen sharing']
+alternatives = ['pixelated productivity', 'remote ready', 'world workgroup']
+explanation = "Screen sharing is a fantastic feature included in most video conferencing tools that allows us to view and sometimes interact with another user’s desktop. It is highly useful when someone needs to display and collaborate information with many users at once. The other terms are made up."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 1 - 10 8"
+question = "Modern GPUs are installed in a _____ slot, which enables high speed communication between the GPU, the CPU, and RAM."
+answers = ['PCIe']
+alternatives = ['PSU', 'PCI', 'AGP']
+explanation = "The Peripheral Component Interconnect Express (PCIe) slot enables high speed communication between GPUs, the CPU, and RAM. PCIe slots come in multiple size formats, known as lanes, and are denoted as x1, x4, x8, and x16 accordingly. A power supply unit (PSU) supplies power to the system. PCI is an older standard. AGP is a made-up term."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 1 - 17 1"
+question = "Which is a monitor backlight technology?"
+answers = ['LED']
+alternatives = ['LCD', 'OLED', 'Nit']
+explanation = "LEDs are a monitor backlight technology. LCDs don't make their own light (thus the need for a backlight). OLEDs make their own light (they don't need a backlight). Nit is a unit used to measure monitor brightness."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 1 - 17 2"
+question = "Which display technology uses moving mirrors?"
+answers = ['DLP']
+alternatives = ['CCFL', 'RGB', 'LCD']
+explanation = "DLP uses tiny, moving mirrors to create the projected image. CCFL is a back lighting technology. Red, green, and blue (RGB) are the subpixel colors. A liquid crystal display (LCD) contains liquid crystal that changes opacity."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 1 - 17 3"
+question = "A CPU with a built-in graphics processor is a what?"
+answers = ['APU']
+alternatives = ['DVI', 'VGA', 'GPU']
+explanation = "An APU includes a CPU and GPU on the same chip. VGA and DVI are video connectors. A graphics processing unit (GPU) can refer to either the core graphics processor or a standalone video card."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 1 - 17 4"
+question = "Which interface supports DRM?"
+answers = ['HDMI']
+alternatives = ['DVI-D', 'VGA', 'DVI-I']
+explanation = "HDMI supports DRM. The other interfaces do not."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 1 - 17 5"
+question = "Which is not a task performed in Windows when installing a video card?"
+answers = ['Adjust PCIe power']
+alternatives = ['Adjust font size', 'Update drivers', 'Set resolution to native']
+explanation = "PCIe power is not adjustable. All of the other tasks are performed in Windows as part of a video card installation."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 1 - 17 6"
+question = "Which is not a standard projector adjustment?"
+answers = ['Threading']
+alternatives = ['Keystone', 'Pincushion', 'Skew']
+explanation = "Threading is not a projector adjustment. Keystone, skew and pincushion are all standard projector adjustments."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 1 - 18 1"
+question = "What goes at the end of an Ethernet frame?"
+answers = ['FCS']
+alternatives = ['Destination MAC', 'Source MAC', 'Data']
+explanation = "The frame check sequence (FCS) goes at the end of an Ethernet frame. In order, an Ethernet frame includes the destination MAC addresses, the source MAC address, the data payload, and finally the FCS."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 1 - 18 2"
+question = "MAC addresses are made up of how many bits?"
+answers = ['48']
+alternatives = ['24', '64', '128']
+explanation = "MAC addresses are made up of 48 bits. The other answers are incorrect."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 1 - 18 3"
+question = "Which device retransmits any inbound message out all of its other ports?"
+answers = ['Hub']
+alternatives = ['Switch', 'Router', 'Smart Repeater']
+explanation = "A hub repeats inbound traffic out all of its other ports. Switches only retransmit data out the port that the intended receiver is connected to. Routers forward traffic to remote networks as required. Smart repeater is an unofficial term for a switch."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 1 - 18 4"
+question = "How does a switch know the MAC addresses of connected devices?"
+answers = ['The switch learns the addresses by watching frames']
+alternatives = ["Switches don't know MAC addresses", 'Switches query each connected host', 'An administrator must program the MAC-to-port table']
+explanation = "Switches watch all inbound frames and learn MAC addresses from them. Switches definitely need to know MAC addresses, which they learn automatically without needing to query hosts or be manually programmed."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 1 - 18 5"
+question = "How are WANs identified?"
+answers = ['Logical addresses']
+alternatives = ['Physical addresses', 'MAC addresses', 'Ethernet address']
+explanation = "Networks are identified by logical addresses (IP addresses). Physical, MAC, and Ethernet addresses are all different names for the same thing."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 1 - 18 6"
+question = "Which device forwards data from one network to another?"
+answers = ['Router']
+alternatives = ['Hub', 'Switch', 'e-mail']
+explanation = "A router forwards network traffic from one network to another. Switches and hubs transmit traffic within a LAN. e-mail may send data from one network to another but it is an application/protocol, not a device."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 1 - 18 7"
+question = "Which is not a network cable type?"
+answers = ['Plenum']
+alternatives = ['Coaxial', 'UTP', 'STP']
+explanation = "Plenum describes any type of cable with a fire-resistant jacket. Coax, unshielded twisted pair (UTP) and shielded twisted pair (STP) are all types of network cable."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 1 - 18 8"
+question = "Multimode fiber optic cables use what for their light source?"
+answers = ['LEDs']
+alternatives = ['Lasers', 'Infrared light', 'Halogen bulbs']
+explanation = "Multimode fiber cables use LEDs to generate light pulses. The other answers are incorrect."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 1 - 18 9"
+question = "How many pairs of wires are in UTP Ethernet cables?"
+answers = ['4']
+alternatives = ['2', '3', '8']
+explanation = "UTP Ethernet cables have four pairs of wires. The other choices are incorrect."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 1 - 18 10"
+question = "Which is the best tool to identify a specific cable within a bundle of cables?"
+answers = ['Fox and Hound']
+alternatives = ['TDR', 'Continuity tester', 'Punch down tool']
+explanation = "A tone probe and tone generator, also called a Fox and Hound, can easily identify a specific cable within a bundle. Neither a TDR nor a continuity tester can identify a specific cable in a bundle. A punch down tool is not a diagnostic tool."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 1 - 18 11"
+question = "Solid-core cabling is best used where?"
+answers = ['To connect distant locations with horizontal runs and drops inside walls and plenum spaces']
+alternatives = ['To connect a switch to a patch bay in a patch panel', 'To connect a computer to a wall jack', 'To connect rarely-moved office equipment such as printers and copiers']
+explanation = "Solid-core cable is used in walls and horizontal runs because it is good for long runs and is not exposed to frequent bending. It is not used in environments where frequent bending occurs such as in patch panels, workspaces, or anywhere that it will be flexed regularly by people handling, stepping on, or tripping over it."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 1 - 18 12"
+question = "Which do link lights not normally indicate?"
+answers = ['Duplex status']
+alternatives = ['Connection/link', 'Speed', 'Activity']
+explanation = "Link lights do not normally indicate duplex status. They do show link/connection status, indicate connection speed, and show activity."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 1 - 18 13"
+question = "Wake-on-LAN is triggered by what?"
+answers = ['Magic packet']
+alternatives = ['Magic bullet', 'Magic frame', 'Magic message']
+explanation = "When supported, a magic packet triggers Wake-on-LAN. The other choices are incorrect."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 1 - 19 1"
+question = "A Class A IP address has how many locked octets?"
+answers = ['One']
+alternatives = ['Two', 'Three', 'Four']
+explanation = "The first octet of a Class A address, the network address, is locked. The other choices are incorrect."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 1 - 19 2"
+question = "How many bits are in an IPv6 address?"
+answers = ['128']
+alternatives = ['32', '64', '256']
+explanation = "IPv6 addresses are 128 bits long. IPv4 address are 32 bits long. No IP address versions are 64 or 256 bits long."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 1 - 19 3"
+question = "Which service uses port 445?"
+answers = ['SMB']
+alternatives = ['HTTPS', 'IMAP', 'SLP']
+explanation = "SMB uses port 445. HTTPS uses port 443. IMAP uses port 143. SLP uses port 427."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 1 - 19 4"
+question = "What is the maximum number of characters in an FQDN?"
+answers = ['255 (including dots)']
+alternatives = ['128 (including dots)', '128 (not including dots)', '255 (not including dots)']
+explanation = "Fully-qualified domain names (FQDNs) can have up to 255 characters, including dots. The other choices are not correct."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 1 - 20 1"
+question = "Which is not a Wi-Fi capable device?"
+answers = ['Switch']
+alternatives = ['WAP', 'Smartphone', 'Tablet']
+explanation = "A switch is a hard-wired network device. WAPs, smartphones, and tablets are all Wi-Fi capable."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 1 - 20 2"
+question = "Which 802.11 standard runs on 5GHz?"
+answers = ['802.11a']
+alternatives = ['802.11b', '802.11g', '802.11c']
+explanation = "802.11a runs on 5GHz. 802.11b and 802.11g run on 2.4GHz. 802.11c is not a Wi-Fi standard."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 1 - 20 3"
+question = "Which is not  'True' of wireless mesh networks?"
+answers = ['Mesh networks are best for large enterprise networks']
+alternatives = ['Mesh networks have a single base station', 'Mesh networks have one or more beacon/satellite stations', 'Mesh networks provide wide coverage in homes and small offices']
+explanation = "Mesh networks don't provide the customized configuration required for enterprise-sized networks. All of the other statements are  'True' of wireless mesh networks."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 1 - 20 4"
+question = "If you spot a WAP on the ceiling of a large room with no obvious power outlet nearby, how is it most-likely powered?"
+answers = ['PoE']
+alternatives = ['RADIUS', 'Battery', 'Solar']
+explanation = "Power over Ethernet is a common way to provide power to a WAP. RADIUS is an authentication protocol. Battery and solar power have limited use for powering a WAP mounted in a hard-to-reach location indoors."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 1 - 20 5"
+question = "Which is not a wireless radio technology found in computers, tablets, or phones?"
+answers = ['Infrared']
+alternatives = ['Bluetooth', 'RFID', 'NFC']
+explanation = "Infrared is a rarely-used wireless technology that communicates with infrared light, not radio waves. Bluetooth, RFID and NFC are all wireless radio technologies."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 1 - 20 6"
+question = "Which is most-likely to prevent a device from connecting to a previously-used Wi-Fi network?"
+answers = ['The SSID has changed']
+alternatives = ['The antenna(s) are poorly oriented', 'Too many devices are accessing the WAP', 'The WAP is disconnected from the Internet']
+explanation = "The most-likely answer is that the SSID changed. Poor antenna orientation may reduce speed or range. Too many devices using the WAP are likely to cause low or intermittent connectivity. Even if a WAP is disconnected from the Internet, devices can still connect to it."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 1 - 21 1"
+question = "Which firewall exception must be enabled on a client to connect to a webserver?"
+answers = ['Port 80 (outbound)']
+alternatives = ['Port 143 (inbound)', 'Port 143 (outbound)', 'Port 80 (inbound)']
+explanation = "The client (the system running the browser) must allow outbound traffic on port 80. Inbound port 80 traffic should be blocked on the web client. Port 143 is used for IMAP; it has nothing to do with web servers or clients."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 1 - 21 2"
+question = "Which is not an e-mail protocol port?"
+answers = ['443']
+alternatives = ['25', '110', '143']
+explanation = "Port 443 is for HTTPS, which is not an e-mail protocol. Port 25 is for the Simple Mail Transfer Protocol (SMTP), port 110 is for the Post Office Protocol (POP/POP3) ,and port 143 is for the Internet Message Access Protocol (IMAP)."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 1 - 21 3"
+question = "Which is not a wireless technology used in IoT?"
+answers = ['Ethernet']
+alternatives = ['802.11', 'Zigbee', 'Z-wave']
+explanation = "Ethernet is not wireless (and most IoT devices don't have an Ethernet port). 802.11/Wi-Fi, Zigbee, and Z-wave are all common wireless IoT connection schemes."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 1 - 22 1"
+question = "A virtual machine is a _______ OS running within a ________ OS."
+answers = ['guest, host']
+alternatives = ['hypervisor, host', 'guest, hypervisor', 'host, guest']
+explanation = "A VM is a guest operating system that runs within a host operating system. The hypervisor manages the guest OS and the interface between the guest OS and the shared physical hardware of the host OS."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 1 - 22 2"
+question = "Which is not needed to install a virtual machine?"
+answers = ['Optical drive']
+alternatives = ['Hypervisor', 'Guest OS .iso file', 'Virtual disk']
+explanation = "A physical optical drive isn't necessary; the hypervisor can create a virtual optical drive from the guest OS .iso file. The installation needs a hypervisor, a guest OS .iso file and a virtual disk."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 1 - 22 3"
+question = "Which is not a good uses of a virtual machine?"
+answers = ['Install 3D games']
+alternatives = ['Practice administering different operating systems', 'Experiment with multiple drives without purchasing hardware', 'Configure virtual networking']
+explanation = "While many VMs support 3D technology, resource sharing with the host OS and other VMs limits a guest's 3D performance. VMs are a great way to practice administering different operating systems, configure and experiment with virtual networking, and experiment with multiple drives by using virtual disks instead of purchasing more physical hard drives."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 1 - 22 4"
+question = "Which is not a cloud ownership category?"
+answers = ['Corporate']
+alternatives = ['Private', 'Public', 'Hybrid']
+explanation = "There is no cloud ownership category known as a corporate cloud. While most of the physical equipment that makes up the cloud is owned by corporations, cloud ownership models focus on who is able to use services provided by a given cloud. Public, private and hybrid are each cloud ownership models."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 1 - 23 1"
+question = "Which is a good technique to use when working inside a laptop?"
+answers = ['Review a disassembly guide or manual']
+alternatives = ['Store all removed screws and hardware in a bowl to avoid losing them', 'Keep the battery attached so you can test as you go', 'Use a butter knife to separate case halves because it is dull but strong']
+explanation = "Review the disassembly process. Keeping all hardware and components in a single container can make small parts tough to find and identify when reassembling the computer. The battery should be removed or disconnected to avoid short circuits while working inside the computer. Avoid using tools that are not specifically designed to perform disassembly tasks."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 1 - 23 2"
+question = "Which technique is most helpful when reassembling a laptop?"
+answers = ['Consult pictures taken when disassembling the laptop']
+alternatives = ['Use larger replacement screws than the ones removed', 'Upgrade all upgradeable components during reassembly', 'Have a second laptop of the same model to review during reassembly']
+explanation = "Pictures are the easiest and most practical tool to help with reassembly. Use the original hardware to reassemble a laptop. Upgrading during reassembly is a good idea but it won't help the reassembly process. It is likely impractical to have an identical laptop to reference during reassembly."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 1 - 23 3"
+question = "Which component usually takes the most disassembly to replace in a laptop?"
+answers = ['CPU']
+alternatives = ['RAM', 'Battery', 'Hard drive']
+explanation = "The CPU is usually buried deep inside a laptop. RAM, batteries, and hard drives are usually easily accessible."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 1 - 23 4"
+question = "Laptop monitors can be challenging to work on for what reason?"
+answers = ['They are sealed']
+alternatives = ['They use high power', 'They have built-in batteries', 'They use chemical backlighting']
+explanation = "Laptop displays tend to be sealed. Laptop displays do not have built-in batteries. Laptop displays use the same backlighting technology as desktop displays: LEDs and CCFLs. Laptop displays generally use less power than desktop displays of the same size."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 1 - 24 1"
+question = "Which is not  'True' of a mobile device?"
+answers = ['It can be easily serviced and upgraded']
+alternatives = ['It is a single, sealed unit', 'It runs a mobile operating system', 'It supports wireless connectivity']
+explanation = "Being sealed, mobile devices are not easily serviceable and they are not designed to be upgraded. The other choices are  'True' of mobile devices."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 1 - 24 2"
+question = "Which is not a wired connection for a smart phone?"
+answers = ['Ethernet']
+alternatives = ['Lightning', 'Micro USB', 'USB C']
+explanation = "Smart phones do not come with Ethernet connectors. Smart phones commonly have Lightning, micro USB, or USB Type-C connectors."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 1 - 24 3"
+question = "Where can users get Android apps?"
+answers = ['Play Store']
+alternatives = ['App Store', 'Microsoft Store', 'Steam store']
+explanation = "Google Play is the primary source for Android apps. The Apple App Store provides access to iOS apps. Neither the Microsoft Store nor Steam distribute Android apps."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 1 - 25 1"
+question = "Which is not a mobile device maintenance practice?"
+answers = ['Back up the data and apps']
+alternatives = ['Update the PRL', 'Update the firmware']
+explanation = "Android Package (APK) files contain installable applications; installing applications isn't part of the normal mobile-device maintenance process. PRL updates, firmware updates, and backups are all mobile device maintenance techniques."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 1 - 25 2"
+question = "Which port number is not used by an encrypted e-mail protocol?"
+answers = ['143']
+alternatives = ['993', '587', '995']
+explanation = "143 is the unencrypted IMAP port. 993 is the encrypted IMAP port. 587 is one of the encrypted SMTP port numbers. 995 is the encrypted POP3 port."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 1 - 25 3"
+question = "Synchronization is least concerned with which choice?"
+answers = ['Backups']
+alternatives = ['Contacts', 'Calendar', 'Files']
+explanation = "Backups are only in sync at the instant of backup - after that, the original source may undergo changes until the next backup session. Synchronization is concerned with keeping current, identical copies of contacts, calendar events and files across multiple devices."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 1 - 25 4"
+question = "Which is not a typical Android screen lock option?"
+answers = ['Token']
+alternatives = ['Swipe', 'Pattern', 'PIN']
+explanation = "Tokens are not used to unlock Android screens. Swipes, patterns and pins are commonly used to unlock screens."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 1 - 25 5"
+question = "Which is least likely solution for a dim mobile device screen?"
+answers = ['Charge the battery']
+alternatives = ["Adjust the display's brightness", 'Enable automatic brightness adjustments', 'Replace the display or its backlight']
+explanation = "A dead or low battery that is low enough to cause a dim display will likely prevent the device from functioning at all. Adjusting brightness, enabling automatic brightness adjustments, or replacing a bad display/backlight may all fix a dim screen."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 1 - 26 1"
+question = "What material do laser printers use to create the final printed image?"
+answers = ['Toner']
+alternatives = ['Heated thermal plastic', 'Heat', 'Ink']
+explanation = "Laser printers create the final printed image by fusing toner to the page. The other choices are incorrect."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 1 - 26 2"
+question = "Which letters represent the ink colors normally used in color inkjet printers?"
+answers = ['CMYK']
+alternatives = ['RGB, Bk, Wh', 'RGBKW', 'RGB']
+explanation = "Inkjet printers typically use cyan, magenta, yellow and black (CMYK) ink. Red, green, and blue (RGB) are the colors of light used by monitors. White ink is seldom used in inkjet printers."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 1 - 26 3"
+question = "Which is not part of the impact-printing process?"
+answers = ['Pre-heat the printhead']
+alternatives = ['Pins pop out of the printhead', 'Pins strike an inked ribbon', 'Inked ribbon makes contact with paper']
+explanation = "The printhead of a dot matrix (impact) printer does not require heating. All of the other options are part of the process of impact printing with a dot matrix printer."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 1 - 26 4"
+question = "Which is not a maintenance task for thermal printers?"
+answers = ['Replace the fuser']
+alternatives = ['Replace the paper', 'Clean the printhead', 'Blow out any debris']
+explanation = "Thermal printers do not have fusers. Replace paper as needed. Clean the printheads and blow out debris regularly."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 1 - 26 5"
+question = "Connecting a local printer to a computer is usually done with what kind of connection?"
+answers = ['USB']
+alternatives = ['Serial', 'Ethernet', 'Infrared']
+explanation = "Most printers have a USB port for connecting to a computer. Some niche industry printers use serial ports. Many printers have an Ethernet port, but they are normally used as network printers, not directly attached to a local computer. Infrared interfaces are not found on printers."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 1 - 26 6"
+question = "Which is not  'True' of shared printers?"
+answers = ['To access a shared printer, create a local printer and then convert it to shared']
+alternatives = ['To create a shared printer, enable file and printer sharing', 'To create a shared printer, give it a share name', 'To access a shared printer, add a printer and then select the shared printer']
+explanation = "A shared printer cannot be accessed by creating a local printer. The other statements about shared printers are  'True'."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 1 - 26 7"
+question = "Which is not part of the 3D-printing process?"
+answers = ['Print a 2D test']
+alternatives = ['Create the 3D image', 'Create the slice file', 'Preheat the extruder and bed']
+explanation = "Printing a 2D test is not part of the 3D-printing process. All of the other choices are part of the 3D-printing process."
+hint = "None"
+
+
+
+
+[[questions]]
+question_number = "PM A+ 2 - 1 1"
+question = "One of the best ways to gather information about a problem is to do what with a customer?"
+answers = ['Listen']
+alternatives = ['Spy on', 'Accuse', 'Blame']
+explanation = "Listen actively to customers to get good information and establish a working relationship. Accusations, spying, and blaming are not effective troubleshooting techniques."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 2 - 1 2"
+question = "Technicians should avoid using this:"
+answers = ['Jargon']
+alternatives = ['Screwdrivers', 'Power meters', 'Plastic tweezers']
+explanation = "Jargon can confuse customers who don't have a background in computer technology. Screwdrivers, power meters, plastic tweezers and other tools are necessary for technicians to diagnose and repair equipment."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 2 - 1 3"
+question = "A technician should avoid this type of behavior when dealing with customers."
+answers = ['Defensive']
+alternatives = ['Professional', 'Friendly', 'Confident']
+explanation = "Defensive postures cause customers to mistrust techs. Techs should be friendly, confident, and professional in all dealings with customers."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 2 - 1 4"
+question = "Presenting a professional appearance means matching the required attire of the given environment. "
+answers = [ 'True']
+alternatives = [ 'False']
+explanation = "You should always strive to match the attire of the environment that you are working in.  "
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 2 - 1 5"
+question = "What class of fire extinguisher is best for electronic fires?"
+answers = ['C']
+alternatives = ['A', 'B', 'D']
+explanation = "Class C fire extinguishers are designed to be used in fires involving electronics - think \"C\" for computer. A, B, and D are not the best choices for electrical fires."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 2 - 2 1"
+question = "Which software is used by the operating system to control computer components?"
+answers = ['Device drivers']
+alternatives = ['Kernel', 'Process', 'iOS']
+explanation = "Device drivers are programs that allow operating systems to control system devices. The kernel is the core of an operating system. iOS is an operating system. A process is a running program."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 2 - 2 2"
+question = "This Windows feature protects users from performing potentially dangerous actions."
+answers = ['UAC (User Account Control)']
+alternatives = ['Root', 'Administrator', 'Superuser']
+explanation = "UAC prevents usage of powerful programs by users with limited permissions. Root is the name of a Linux administrative account. Administrator is the name of a Windows administrative account. Superuser is the general term for a Linux or Unix administrative account."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 2 - 2 3"
+question = "Which operating system provides single sign-on and a domain controller?"
+answers = ['Windows Server']
+alternatives = ['iOS', 'Linux', 'SAMBA']
+explanation = "Windows Server creates and manages domains and single sign-on services. iOS and Linux do not provide domains or single sign-on services. SAMBA is a file sharing program."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 2 - 2 4"
+question = "The bar at the bottom of a macOS desktop used to select and launch programs is called what?"
+answers = ['Dock']
+alternatives = ['Finder', 'Terminal', 'Apple menu']
+explanation = "The correct answer is the Dock. Terminal is the macOS command-line interface. The Apple menu is found at the top left corner of the screen. Finder is a file-management program."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 2 - 2 5"
+question = "Linux comes in different variations known as what?"
+answers = ['Distros']
+alternatives = ['Desktops', 'Ubuntus', 'Mints']
+explanation = "Distros are different versions of Linux. Ubuntu and Mint are themselves Linux distros. Desktop is the main screen of a Linux system."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 2 - 2 6"
+question = "Windows 11 has more robust hardware requirements for installation, which includes:"
+answers = ['Trusted Protection Module 2.0 (TPM 2.0)  ']
+alternatives = ['16GB of free RAM ', 'NetBIOS v6', 'USB optical drive ']
+explanation = "TPM 2.0 is required to run Windows 11, as an important building block for security-related features such as Windows Hello and Bitlocker."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 2 - 7 1"
+question = "Which device protects only from power spikes?"
+answers = ['Surge suppressor']
+alternatives = ['UPS', 'Power supply unit (PSU)', 'Heat sink']
+explanation = "A surge suppressor only protects devices from power spikes. A UPS protects from spikes and sags/brownouts. A heat sink carries heat away from hot components such as a CPU. A power supply has a built-in surge suppressor, but it also provides power to the computer."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 2 - 7 2"
+question = "Which of the following is not provided by a power supply?"
+answers = ['Sag protection']
+alternatives = ['Surge suppression', 'Power good signal to the computer', 'Voltage to the CPU and motherboard']
+explanation = "Power supplies cannot protect from sags/brownouts. All of the other choices are performed by a power supply."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 2 - 8 1"
+question = "Which cannot be set as the first boot choice?"
+answers = ['UEFI']
+alternatives = ['USB Drive', 'Optical Drive', 'M.2 Drive']
+explanation = "UEFI is a firmware interface, not a boot device. Any of the other choices can be set as a boot device."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 2 - 8 2"
+question = "Which is a likely reason for a computer to fail to boot?"
+answers = ['Boot order changed to a non-bootable device']
+alternatives = ['Boot order set to bootable optical media', 'System cannot boot from USB drive', 'System set to boot from SSD']
+explanation = "A computer cannot boot from a non-bootable device or media. USB drives, optical drives, and SSDs and are all valid boot devices (but will only boot if they contain a working, properly-created bootable drive image)."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 2 - 9 1"
+question = "Linux uses what type of partition to compensate for low available memory conditions?"
+answers = ['Swap']
+alternatives = ['Personal', 'Recovery', 'Operating system']
+explanation = "Linux uses swap partitions as virtual memory when needed. Personal partitions are used to hold programs and files. Operating system partitions hold the bootable OS and utilities. Recovery partitions are used to restore a damaged OS."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 2 - 9 2"
+question = "Which is found at LBA 0?"
+answers = ['Master boot record']
+alternatives = ['OS partition', 'Power-on self test (POST)', 'Windows swap file']
+explanation = "The master boot record (MBR) is found at LBA 0. The OS partition could be anywhere on the drive. The Windows swap file is stored in the root of the C: drive, but not at LBA 0. POST is located in the UEFI/BIOS chip."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 2 - 9 3"
+question = "What is the first GPT header called?"
+answers = ['Primary']
+alternatives = ['Main', 'Secondary', 'Tertiary']
+explanation = "The first GPT header is the primary GPT header. The secondary GPT header is the backup, or second, GPT header. Main and tertiary are not terms associated with the GPT header."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 2 - 9 4"
+question = "Which does formatting a drive NOT do?"
+answers = ['Save existing data']
+alternatives = ['Test the blocks', 'Create the file index', 'Create a blank root']
+explanation = "Formatting a drive does not save existing data. Formatting does, however: test blocks, create a file index, and create a blank root folder/directory."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 2 - 9 5"
+question = "The main file system used by current versions of Windows is what?"
+answers = ['NTFS']
+alternatives = ['FAT32', 'GPT', 'MBR']
+explanation = "NTFS is the standard Windows file system. FAT32 was once the standard in much older versions of Windows. GPT and MBR are partition table types, not file systems."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 2 - 9 6"
+question = "Dynamic disks support drive mirroring. What happens if one of the mirrored drives fails?"
+answers = ['The system continues to function with no data loss']
+alternatives = ['The system fails until the failed drive is replaced', 'The system automatically repairs the failed drive', 'The system selects an empty drive as a "hot spare" to replace the failed drive']
+explanation = "The system will function with no data loss. The failed drive must be manually replaced later. The other options are incorrect."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 2 - 9 7"
+question = "Which is NOT a Storage Solution RAID configuration?"
+answers = ['RAID 10']
+alternatives = ['Parity', 'Simple', 'Two-way mirror']
+explanation = "Storage Spaces does not have a RAID 10 configuration. Simple (JBOD), two-way mirror, and parity (RAID 5) are all supported configurations under Storage Spaces."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 2 - 9 8"
+question = "What operates a software RAID solution?"
+answers = ['The OS and CPU']
+alternatives = ['A RAID expansion card', 'A RAID controller built into the motherboard', 'The drives in the array']
+explanation = "Software RAID is controlled by the operating system and the CPU. RAID expansion cards and motherboard-based RAID controllers are examples of hardware RAID. Drives don't have built-in RAID controllers."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 2 - 9 9"
+question = "What kind of chip holds a BitLocker key?"
+answers = ['TPM']
+alternatives = ['MPT', 'TMP', 'PTM']
+explanation = "A Trusted Platform Module (TPM) chip holds a BitLocker key. The rest are made-up terms."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 2 - 10 1"
+question = "Each version of USB in a computer has its own what?"
+answers = ['USB controller']
+alternatives = ['USB hub', 'USB peripheral', 'USB Type-B connector']
+explanation = "Each version of USB in a computer has its own USB controller which is then connected to a USB hub. USB Type-B connectors connect to a downstream peripheral (such as a printer). A USB hub is a circuit or device with one or more upstream USB ports. Each version of USB does not have its own peripheral."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 2 - 10 2"
+question = "Videoconferencing software allows viewing of remote desktops through a feature known as _____________."
+answers = ['screen sharing']
+alternatives = ['pixelated productivity', 'remote ready', 'world workgroup']
+explanation = "Screen sharing is a fantastic feature included in most video conferencing tools that allows us to view and sometimes interact with another user’s desktop. It is highly useful when someone needs to display and collaborate information with many users at once. The other terms are made up."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 2 - 11 1"
+question = "Which command can you use to verify a system's specific Microsoft Windows version and build?"
+answers = ['winver']
+alternatives = ['buildinfo', 'msbldver', 'wininfo']
+explanation = "Winver is a legacy command dating way back to Windows 3.0, which means you can run it on almost any Windows system that you encounter. It will display your system's Microsoft Windows operating system version, the specific build number, and the current licensed owner. The other commands are not real commands."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 2 - 11 2"
+question = "What is the minimum RAM requirement to install and run Windows 11?"
+answers = ['4GB']
+alternatives = ['1GB', '8GB', '16GB']
+explanation = "All versions of Windows 11 require 4GB of RAM to run. If you are unsure if your system meets the minimum requirements to run Windows 11, you can run the PC Health Check utility located in your Windows Update panel. "
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 2 - 11 3"
+question = "Aside from an optical disc, which storage device is best for creating portable bootable media from an ISO image?"
+answers = ['USB flash drive']
+alternatives = ['Network interface card', 'Hard drive', 'SSD']
+explanation = "USB flash drives are great for bootable media because they're super portable and most computers have USB ports. You could make one from a hard drive or SSD, but you'd have to go through the trouble of installing it or carrying an external drive enclosure. You can't make bootable media out of a NIC (though it is possible to boot from a network image with PXE)."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 2 - 11 4"
+question = "How can a user access the contents of an ISO file without first creating bootable media?"
+answers = ['Mount the ISO file']
+alternatives = ['Open the ISO file with Windows explorer', 'Use the WinRE environment', 'Copy the ISO to a thumb drive']
+explanation = "Mounting an ISO file makes its contents accessible. The WinRE environment is used to create recovery drives. Simply copying an ISO file to a thumb drive won't make the contents of the image accessible. Windows explorer cannot open or access ISO files."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 2 - 11 5"
+question = "Windows can be deployed on multiple machines across a network simultaneously through the use of a preconfigured copy of a disk known as a/an:"
+answers = ['image']
+alternatives = ['thumb drive', 'virtual machine', 'bootloader']
+explanation = "We can install Windows across multiple systems simultaneously through the use of image deployment. A thumb drive installation would require carrying the thumb drive to every individual system. A virtual machine would work on a single computer, but not across a network, and wouldn't necessarily include an installed OS. Bootloader is incorrect."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 2 - 11 6"
+question = "A technician needs what to complete the post-installation tasks for a Windows installation?"
+answers = ['Motherboard drivers']
+alternatives = ['Hardware compatibility list', 'An ISO of the operating system', 'CPU upgrade']
+explanation = "Motherboard and other hardware drivers are needed to complete a Windows installation. The HCL should be checked as part of the pre-installation process. An ISO should be used to create a bootable flash drive or optical media before installing Windows. Hardware upgrades and changes should be accomplished before beginning an installation."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 2 - 11 7"
+question = "Which task does Windows perform during an installation?"
+answers = ['Install a basic video driver']
+alternatives = ['Install anti-malware software', 'Create a recovery drive', 'Update all drivers']
+explanation = "Windows installs a basic video driver. All of the other tasks are post-installation tasks to be performed by the installer or user."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 2 - 11 8"
+question = "Some editions of Linux can run as a ______, which allows you to fully utilize the operating system without having to first install it. "
+answers = ['live CD']
+alternatives = ['boot DVD', 'live OS', 'Ghost Protocol Ubuntu']
+explanation = "A live CD allows a user to run an operating system for any purpose without having to install any software or make any changes to a system's configuration. As DVD and CD drives are becoming less popular, live USBs have started to take their place. "
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 2 - 12 1"
+question = "\n_______ are tasks handled by Windows and needed for the operating system to function."
+answers = ['Services']
+alternatives = ['Dynamic Link Libraries', 'Applications', 'Processes']
+explanation = "Services run without user intervention and may even continue to run after a user has logged off of the system. Servces run in the background and perform crucial tasks that the Windows operating system needs to function properly. "
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 2 - 12 2"
+question = "Where would one go within the Control Panel to find the settings for features such as narrator, magnifier, or color filters?"
+answers = ['Ease of Access']
+alternatives = ['System', 'Privacy', 'Personalization']
+explanation = "The Ease of Access section contains settings that let you adjust various hearing, vision, and interaction elements within Windows. It is also where you will find the narrator and magnifier tools."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 2 - 12 3"
+question = "Steve has just realized that he spelled his username incorrectly when setting up his PC. Which section in Windows Settings does he need to visit in order to change his username?"
+answers = ['Accounts']
+alternatives = ['Personalization', 'Privacy & Securty', 'Network & Internet']
+explanation = "The Accounts section within Windows Settings allows a user to add, edit, or remove users as well as change sign-in options."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 2 - 12 4"
+question = "A user can create a custom list of administrative tools using snap-ins within what Microsoft framework?"
+answers = ['Microsoft Management Console (MMC)']
+alternatives = ['Control Panel', 'Windows Settings', 'Computer Management']
+explanation = "The Microsoft Management Console (MMC) offers a framework in which multiple administrative tools can be added to a single management interface. You can even use MMC to create custom toolsets and distribute to others for use on their machines."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 2 - 12 5"
+question = "Which is not a root key in the registry?"
+answers = ['HKEY_USERS']
+alternatives = ['HKEY_CLASSES_ROOT', 'HKEY_CURRENT_USER', 'HKEY_LOCAL_MACHINE']
+explanation = "HKEY_CURRENT_MACHINE is not a root key in the registry. All of the other choices are valid registry root keys."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 2 - 12 6"
+question = "The registry files are stored in the C:\\Windows\\System32\\___________ folder."
+answers = ['config']
+alternatives = ['regback', 'registry', 'reg']
+explanation = "The registry files are stored in the C:\\Windows\\System32\\config folder. The other choices are incorrect."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 2 - 13 1"
+question = "Which Windows file system has the most security features?"
+answers = ['NTFS']
+alternatives = ['macOS', 'Shares', 'FAT']
+explanation = "NTFS supports granular file security options. FAT has no security. macOS is a full operating system maintained by Apple. Shares is not a file system."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 2 - 13 2"
+question = "Which statement about groups is  'True'?"
+answers = ['Permissions granted to a group apply to all of the members of the group.']
+alternatives = ['If a user is a member of a group, the user account cannot have any individual permission assignements.', 'Permissions granted to a user apply to all co-members of any groups that the user is a member of.', 'Users can be members of groups and groups can be members of users.']
+explanation = "Group permissions apply to all members of the group. None of the other statements are  'True'."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 2 - 13 3"
+question = "How does the administrator account receive its power?"
+answers = ['By being a member of the Administrators group.']
+alternatives = ['By being a member of the Power Users group.', 'By changing its account type from standard user to administrator.', 'By having the Full Control NTFS permission for the root of the C: drive.']
+explanation = "Administrators get their authority from being a member of the Administrators group. The Power Users group has less power than the Administrators group. NTFS permissions only control access to the file system, not user accounts or system configurations. A standard user cannot change its account type to administrator."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 2 - 13 4"
+question = "Which is not a way to create user accounts?"
+answers = ['User Creation Tool']
+alternatives = ['Settings', 'Control Panel', 'Local Users and Groups']
+explanation = "There is no Windows utility named User Creation Tool. Settings, Control Panel, and Local Users and Groups all directly or indirectly enable creating user accounts."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 2 - 13 5"
+question = "Which file action is not controlled by the NTFS \"modify\" permission?"
+answers = ['Execute a program file']
+alternatives = ['Read a file', 'Write to a file', 'Delete a file']
+explanation = "Modify does not allow program execution. The modify permission allows a user to read, write or delete a file."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 2 - 13 6"
+question = "When creating a file in Linux or macOS, which of the following does not receive any permissions?"
+answers = ['Administrator']
+alternatives = ['User', 'Group', 'Everyone']
+explanation = "The administrator does not receive a default permission to newly created files (unless the administrator is the one that created the file). Newly created files get permissions for the user, group, and everyone else."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 2 - 13 7"
+question = "On Linux, which is not a file permission?"
+answers = ['Delete']
+alternatives = ['Read', 'Write', 'eXecute']
+explanation = "Delete is not a file permission on Linux. Read (R), Write (W), and Execute (X) are the three file permissions on Linux."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 2 - 13 8"
+question = "Which part of the File Explorer interface displays frequently used files and folders?"
+answers = ['Quick Access']
+alternatives = ['Navigation pane', 'Details pane', 'This PC']
+explanation = "The Quick Access entry within the Navigation pane shows frequently used files and folders. The Navigation pane shows all navigable aspects of the file system. The Details pane shows information about a selected file or folder. This PC shows any installed and mapped drives."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 2 - 13 9"
+question = "Which is an accurate UNC in Windows?"
+answers = ['\\\\server\\share']
+alternatives = ['//server/share', '//server\\share', '\\\\server/share']
+explanation = "Universal Naming Convention (UNC) for Windows starts with a double backslash followed by a server or host name, then a single backslash followed by the resource (such as a share) name or path. The other choices all include forward slashes (also called whacks) which are not part of UNC."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 2 - 13 10"
+question = "Local Security Policy settings apply to which of these?"
+answers = ['A single computer']
+alternatives = ['All of the computers within a workgroup', 'All of the computers on a domain', 'All of the computers that are logged into the same server']
+explanation = "Local security policy sets policies for a single computer. All of the other answers are incorrect."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 2 - 13 11"
+question = "Which is not set in the Account Lockout Policy settings?"
+answers = ['Minimum password length']
+alternatives = ['Lockout threshold', 'Lockout duration', 'Reset Lockout counter']
+explanation = "Minimum password length is set in the Account Policies settings. All of the other choices are set in the Account Lockout Policy settings."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 2 - 14 1"
+question = "Operating systems that have reached their _______ are typically not eligible to receive feature and security updates."
+answers = ['end-of-life (EOL)']
+alternatives = ['Last Upgrade Cycle (LUC)', 'demise of normal functioning (DNF)', 'final countdown clock (FCC)']
+explanation = "Every piece of technology will eventually become obsolete, and vendors use the term end-of-life (EOL) to refer to something that has reaced the end of its useful life and consequently will no longer be sold, marketed, supported, or upgraded. The other terms are made up."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 2 - 14 2"
+question = "______________ is a mandatory component of Windows that aims to improve the security of systems by limiting the permissions that normal application software runs as, until authorized by an administrator. "
+answers = ['User Account Control (UAC)']
+alternatives = ['Software Limitation Algorithm (SLA)', 'Minimum Encouraged Elevated Permissions (MEEP)', 'Application and Program Control (APC)']
+explanation = "User account control (UAC) functions by isolating low-privilege and high-privilege running processes and requiring administrator approval prior to an application's privilege escalation. The other terms are made up."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 2 - 14 3"
+question = "Why are users strongly encouraged to utilize the 3-2-1 system when backing up crucial data?"
+answers = ['It contains solid guidelines to help prevent against complete data loss']
+alternatives = ['It simplifies the data archival process', 'It gives users three tries to access the data and then locks them out of their account', '3-2-1 helps speed up data recovery after an intrusion']
+explanation = "The 3-2-1 rule states that you should 3 copies of your backed up data, across two or more media types (CD, DVD, USB), and at least one copy of your backup should be hosted offsite, such as in the cloud. Following this rule helps ensure that you always have a complete backup available no matter the reason for the outage. "
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 2 - 15 1"
+question = "Which is not a command-line environment?"
+answers = ['Desktop']
+alternatives = ['Shell', 'CMD', 'PowerShell']
+explanation = "The desktop is a graphical user interface. All of the other choices are command-line environments."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 2 - 15 2"
+question = "Which choice increases the permissions a command is run with?"
+answers = ['Precede the command with sudo']
+alternatives = ['Run bash shell in root mode', 'Put sudo at the end of a command line', 'Precede the command with man']
+explanation = "Preceding a command with sudo runs the command with the permissions of another user (by default, those of the root user). The bash shell does not have a \"root\" mode. Sudo must go before a command, not at the end of it. Man is a command for accessing the manuals to many aspects of a system (including installed commands)."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 2 - 15 3"
+question = "In both Linux and Windows, which command will change the working directory from one folder to another?"
+answers = ['cd']
+alternatives = ['cmd', '/', '\']
+explanation = "You can change the working directory in both Linux and Windows with the cd (change directory) command. / is a path separator in Linux and \\ is a path separator in Windows. Cmd is the program that opens a command-line window in Windows."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 2 - 15 4"
+question = "Which command displays a list of files and directories in Windows?"
+answers = ['dir']
+alternatives = ['ls', 'cls', 'su']
+explanation = "dir is the Windows command to list files and directories. ls lists files and directories in Linux. cls is the clear-screen command in the Windows command-line environment. su forces Linux commands to be run with root permissions."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 2 - 15 5"
+question = "Which command is a folder-management utility in the Linux command environment?"
+answers = ['mkdir']
+alternatives = ['md', 'rd', 'dir']
+explanation = "The mkdir command makes directories in Linux. md, rd and dir are all Windows commands."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 2 - 15 6"
+question = "Which switch should be added to the rmdir command in order to delete a directory and its subdirectories?"
+answers = ['-r']
+alternatives = ['-subs', '-~', '/s']
+explanation = "rmdir -r removes directories and subdirectories in Linux. -subs and -~ are not valid switches for rmdir. /s is the switch used with the Windows rd command to remove subdirectories."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 2 - 15 7"
+question = "Which is not a valid Linux or Windows command to erase files?"
+answers = ['cp']
+alternatives = ['rm', 'del', 'mv']
+explanation = "cp is the Linux command to copy files. rm is the Linux command to delete files. del is the Windows command to delete files. mv is the Linux command to copy files then delete the originals."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 2 - 15 8"
+question = "Which command will delete all files with the extension .jpg but no other files?"
+answers = ['del *.jpg']
+alternatives = ['del jpg.*', 'del jpg*', 'del *jpg']
+explanation = "del *.jpg deletes files with any name as long as the extension is exactly .jpg. del jpg.* deletes all files with the name jpg and any extension. del jpg* deletes any files with jpg at the beginning of the name. del *jpg deletes all files with jpg at the end of the name."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 2 - 15 9"
+question = "Which command finds and fixes file table problems on a Windows computer?"
+answers = ['chkdsk']
+alternatives = ['dism', 'format', 'sfc']
+explanation = "chkdsk (also called error checking) finds and fixes problems with file tables. dism finds and fixes certain Windows files. format creates a new file table and blank root directory, wiping out the old table. sfc finds and fixes certain Windows files."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 2 - 15 10"
+question = "If sfc finds errors, what should a technician do?"
+answers = ['Run dism']
+alternatives = ['Run chkdsk', 'Run format', 'Run chkdsk /f']
+explanation = "Best practice if sfc finds errors is to run dism to repair critical Windows files. Chkdsk checks the file table. Chkdsk /f checks the file table and fixes bad blocks. Format wipes out the drive."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 2 - 15 11"
+question = "Which of these is a bit-by-bit copy command?"
+answers = ['dd']
+alternatives = ['xcopy', 'robocopy', 'cp']
+explanation = "dd is a bit-by-bit copy command. The other commands are all file and directory copy commands."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 2 - 15 12"
+question = "Which command causes /dev/sdb to be overwritten with zeroes?"
+answers = ['dd if=/dev/zero of=/dev/sdb']
+alternatives = ['dd if=/dev/sdb of=/dev/zero', 'dd if=/dev/sda of=/dev/sdb', 'dd if=/dev/sbd of=~/backup.img']
+explanation = "dd if=/dev/zero of=/dev/sdb is the standard method to overwrite the output file (of) with zeroes. dd if=/dev/sdb of=/dev/zero reverses input file (if) and output file. dd if=/dev/sda of=/dev/sdb copies the contents of /dev/sda to /dev/sdb. dd if=/dev/sbd of=~/backup.img creates an image file of /dev/sbd in the user's home directory."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 2 - 15 13"
+question = "Which Windows command shows running processes and their PIDs?"
+answers = ['tasklist']
+alternatives = ['taskkill', 'ps', 'gpresult']
+explanation = "tasklist is the Windows command that shows active processes and PIDs. taskkill kills active processes. ps is the Linux command to show active processes. gpresult shows active policies on a Windows computer."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 2 - 15 14"
+question = "Which apt-get option gets a list of the current version of all installed software?"
+answers = ['update']
+alternatives = ['upgrade', 'remove', 'install']
+explanation = "apt-get update collects version information (and any available updates) for all installed software. apt-get upgrade upgrades all installed software to the latest version. apt-get install installs new software. apt-get remove deletes installed software."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 2 - 15 15"
+question = "Which command has replaced apt-get?"
+answers = ['apt']
+alternatives = ['get', 'redhat', 'debian']
+explanation = "apt-get has been replaced by apt (though apt-get still works). Redhat and Debian are Linux distributions. get is not a replacement for apt-get."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 2 - 15 16"
+question = "To take ownership of a Linux file, which command should you use?"
+answers = ['chown']
+alternatives = ['pwd', 'chmod', 'passwd']
+explanation = "chown changes a file's owner (and the group). chmod changes a file's permissions. pwd shows the present working directory. passwd changes a user's password."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 2 - 15 17"
+question = "Which symbol in a Bash scripts indicates the rest of the line is a comment?"
+answers = ['#']
+alternatives = ['*', '\', '!']
+explanation = "# is the comment symbol in bash. The other options are not bash comment symbols."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 2 - 15 18"
+question = "What is the extension of a Visual Basic file?"
+answers = ['.vbs']
+alternatives = ['.vib', '.vis', '.vsb']
+explanation = "Visual Basic files have the .vbs extension. The other options are not standard Visual Basic file extensions."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 2 - 15 19"
+question = "Which is not an interpreted language?"
+answers = ['C']
+alternatives = ['JavaScript', 'Python', 'Visual Basic']
+explanation = "C is a compiled language. The other choices are all interpreted languages."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 2 - 16 1"
+question = "If you encounter boot problems, which tool is a good place to start your troubleshooting?"
+answers = ['WinRE']
+alternatives = ['Network Troubleshooter', 'System Troubleshooter', 'WinPE']
+explanation = "WinRE is an excellent tool to begin troubleshooting boot issues. WinPE is not a troubleshooting tool. System Troubleshooter and Network Troubleshooter are inaccessible if the system won't boot correctly."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 2 - 16 2"
+question = "Which type of boot causes Windows to boot with a minimal set of drivers, services, and applications?"
+answers = ['Safe']
+alternatives = ['Minimum', 'Full', 'Normal']
+explanation = "Safe boot is a lean boot configuration that is good for troubleshooting boot problems. Full and Minimum are not boot types (although Minimal is). Normal boot loads all of the typical drivers, services and applications."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 2 - 16 3"
+question = "How many times must Windows crash during boot for the Windows Recovery Environment to add an advanced options menu."
+answers = [3]
+alternatives = [0, 1, 2]
+explanation = "Windows must crash 3 times during bootup for the WinRE to add the advanced options menu. The other choices are incorrect."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 2 - 16 4"
+question = "A user reports that their computer won't boot this morning. Which is the most likely reason?"
+answers = ['The user left their thumb drive plugged into a USB port']
+alternatives = ['The system automatically updated drivers last night', 'The computer is stuck in Safe Mode', 'The computer is not plugged in']
+explanation = "It's most likely that the system is trying to boot from the thumb drive. It is possible the computer is not plugged in, but this would usually be found by the user before contacting tech support. Safe Mode would still allow the computer to boot. An overnight update is also a possible cause, but it is less likely than a simple boot-order issue."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 2 - 16 5"
+question = "A computer boots but can't load the graphical desktop. Which is not a recommended troubleshooting procedure?"
+answers = ['Add more RAM']
+alternatives = ['Reboot multiple times if necessary', 'Boot into Safe Mode', 'Use WinRE to access the System logs in Event Viewer']
+explanation = "Low RAM is not a reason for a computer to fail to run the graphical environment. Multiple reboots will launch the Windows Recovery Environment (WinRE). Booting into Safe Mode will provide access to troubleshooting tools and logs. Launching WinRE also enables access to Event viewer and logs."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 2 - 16 6"
+question = "Which is not a likely cause for a slow running computer?"
+answers = ['There are not enough services running']
+alternatives = ['Application issues', 'Low RAM', 'Files on the hard drive are highly fragmented']
+explanation = "Running services consume resources, so fewer typically means better performance. Application issues, too little RAM, and highly fragmented files can all slow a computer down."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 2 - 16 7"
+question = "A user reports that their word processor crashes every time it tries to launch. Which tool should a technician use first to diagnose the problem?"
+answers = ['Event Viewer']
+alternatives = ['Programs and Features', 'Task Manager', 'Disk Defrag']
+explanation = "Event viewer should be used to check the Application and System logs. Programs and Features may be able to repair the app, but diagnosis comes first. Task manager is not helpful; it will show the program launch and then close. Highly-fragmented files don't cause application crashes."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 2 - 16 8"
+question = "Which is the most-likely cause of a Windows BSoD?"
+answers = ['New hardware installed']
+alternatives = ['New software installed', 'USB 3.0', 'Flashed BIOS']
+explanation = "New hardware is a common cause for a blue screen of death. New software, USB 3.0, and a newly-flashed bios do not commonly cause blue screens."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 2 - 19 1"
+question = "A Class A IP address has how many locked octets?"
+answers = ['One']
+alternatives = ['Two', 'Three', 'Four']
+explanation = "The first octet of a Class A address, the network address, is locked. The other choices are incorrect."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 2 - 19 2"
+question = "What does 255 mean in a subnet mask?"
+answers = ['The octet is part of the network address.']
+alternatives = ['The octet is part of the host address.', 'The network address is 255.', 'The host address is 255.']
+explanation = "Every octet masked with 255 is part of the network address. The other answers are incorrect."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 2 - 19 3"
+question = "Which is usually  'True' of NAT routers?"
+answers = ['NAT routers have a public address on the WAN side and a private address on the LAN side.']
+alternatives = ['NAT routers have a private address on the WAN side and a public address on the LAN side.', 'NAT routers have a private address on the WAN side and a private address on the LAN side.', 'NAT routers have a public address on the WAN side and a public address on the LAN side.']
+explanation = "Normally, NAT routers have a public IP address on their WAN interface and a private IP address on their LAN interface. The other answers are not correct."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 2 - 19 4"
+question = "What is the maximum number of characters in an FQDN?"
+answers = ['255 (including dots)']
+alternatives = ['128 (including dots)', '128 (not including dots)', '255 (not including dots)']
+explanation = "Fully-qualified domain names (FQDNs) can have up to 255 characters, including dots. The other choices are not correct."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 2 - 19 5"
+question = "Which is not a type of Windows firewall?"
+answers = ['Enterprise']
+alternatives = ['Domain', 'Private', 'Public']
+explanation = "Enterprise is not a type of Windows firewall. Domain, private and public are all types of Windows firewall."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 2 - 19 6"
+question = "Which exposes a LAN host to the Internet?"
+answers = ['DMZ']
+alternatives = ['Firewall', 'SMB', 'Whitelist']
+explanation = "A demilitarized zone (DMZ) exposes a LAN host to the Internet. A firewall blocks access to and from the Internet. SMB is a file and print sharing protocol that works within a single network. A whitelist is a type of access control list (ACL)."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 2 - 20 1"
+question = "Which is not a wireless encryption standard?"
+answers = ['WEP2']
+alternatives = ['WEP', 'WPA', 'WPA2']
+explanation = "WEP2 never existed. WEP, WPA and WPA2 are all wireless encryption schemes."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 2 - 20 2"
+question = "Which should you try first if your device can't connect to a remembered public wireless network?"
+answers = ['Delete the profile and try to connect again']
+alternatives = ['Increase the transmit power on the SOHO router', 'Connect to the SOHO router with a cable', 'Reset the SOHO router to factory defaults']
+explanation = "Delete the profile and try to make a new connection. If you're a guest in a coffee shop or hotel, it's hopefully not even possible for you to increase the power, reset the router, or connect to a wired port."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 2 - 20 3"
+question = "If you spot a WAP on the ceiling of a large room with no obvious power outlet nearby, how is it most-likely powered?"
+answers = ['PoE']
+alternatives = ['RADIUS', 'Battery', 'Solar']
+explanation = "Power over Ethernet is a common way to provide power to a WAP. RADIUS is an authentication protocol. Battery and solar power have limited use for powering a WAP mounted in a hard-to-reach location indoors."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 2 - 20 4"
+question = "Which is most-likely to prevent a device from connecting to a previously-used Wi-Fi network?"
+answers = ['The SSID has changed']
+alternatives = ['The antenna(s) are poorly oriented', 'Too many devices are accessing the WAP', 'The WAP is disconnected from the Internet']
+explanation = "The most-likely answer is that the SSID changed. Poor antenna orientation may reduce speed or range. Too many devices using the WAP are likely to cause low or intermittent connectivity. Even if a WAP is disconnected from the Internet, devices can still connect to it."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 2 - 21 1"
+question = "Telnet uses port _____ and SSH uses port ______."
+answers = ['23, 22']
+alternatives = ['22,23', '20,21', '21,20']
+explanation = "Telnet uses port 23 and SSH uses port 22. Ports 20 and 21 are both used by FTP."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 2 - 21 2"
+question = "Windows RDP uses which port?"
+answers = ['3389']
+alternatives = ['3983', '3893', '8933']
+explanation = "Windows RDP uses port 3389. The other choices are incorrect."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 2 - 21 3"
+question = "HTTP uses port _____ and HTTPS uses port _____."
+answers = ['80, 443']
+alternatives = ['88, 4430', '8080, 443', '80, 343']
+explanation = "HTTP uses port 80 and HTTPS uses port 443."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 2 - 21 4"
+question = "Passive mode FTP uses port ______. Active mode FTP uses this same port plus port _______."
+answers = ['21, 20']
+alternatives = ['20, 22', '20, 21', '21, 22']
+explanation = "Passive FTP uses port 21, active FTP uses ports 21 and 20."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 2 - 21 5"
+question = "Which is not a wireless technology used in IoT?"
+answers = ['Ethernet']
+alternatives = ['802.11', 'Zigbee', 'Z-wave']
+explanation = "Ethernet is not wireless (and most IoT devices don't have an Ethernet port). 802.11/Wi-Fi, Zigbee, and Z-wave are all common wireless IoT connection schemes."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 2 - 23 1"
+question = "Which is not an ACPI power mode in a laptop?"
+answers = ['Off']
+alternatives = ['On', 'Sleep', 'Hibernation']
+explanation = "ACPI does not have an \"off\" setting. On, sleep, and hibernation are all ACPI sleep modes."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 2 - 24 1"
+question = "Where can users get Android apps?"
+answers = ['Play Store']
+alternatives = ['App Store', 'Microsoft Store', 'Steam store']
+explanation = "Google Play is the primary source for Android apps. The Apple App Store provides access to iOS apps. Neither the Microsoft Store nor Steam distribute Android apps."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 2 - 24 2"
+question = "Which best describes augmented reality?"
+answers = ['Computer-generated elements superimposed on the real environment']
+alternatives = ['A completely computer-generated environment', 'Blending real elements into a computer-generated environment ', 'Using a traditional computer and monitor to view real-time camera output']
+explanation = "Augmented reality takes a view of the real world and adds in computer-generated audio and/or video. Environments consisting only of computer generated video and audio are called virtual reality. The other choices are incorrect."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 2 - 25 1"
+question = "Which is not a mobile device maintenance practice?"
+answers = ['Back up the data and apps']
+alternatives = ['Update the PRL', 'Update the firmware']
+explanation = "Android Package (APK) files contain installable applications; installing applications isn't part of the normal mobile-device maintenance process. PRL updates, firmware updates, and backups are all mobile device maintenance techniques."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 2 - 25 2"
+question = "Which port number is not used by an encrypted e-mail protocol?"
+answers = ['143']
+alternatives = ['993', '587', '995']
+explanation = "143 is the unencrypted IMAP port. 993 is the encrypted IMAP port. 587 is one of the encrypted SMTP port numbers. 995 is the encrypted POP3 port."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 2 - 25 3"
+question = "Which is not a typical Android screen lock option?"
+answers = ['Token']
+alternatives = ['Swipe', 'Pattern', 'PIN']
+explanation = "Tokens are not used to unlock Android screens. Swipes, patterns and pins are commonly used to unlock screens."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 2 - 27 1"
+question = "Which is not a core component of computer security?"
+answers = ['Peripheral-based security']
+alternatives = ['Host-based security', 'Network-based security', 'Physical security']
+explanation = "There is not a specific category of security protection that focuses on peripherals. Host-based, network-based, and physical security are all core parts of protecting computer and network assets."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 2 - 27 2"
+question = "Which is not a layer of physical security?"
+answers = ['Log files']
+alternatives = ['Perimeter', 'Room locks', 'Individual devices']
+explanation = "Log files don't prevent attacks; they help us identify the attack after it occurred. Perimeter security, locked doors, and secured devices are levels of physical security."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 2 - 27 3"
+question = "Which is not a vulnerability-avoidance technique?"
+answers = ['Download e-mail attachments']
+alternatives = ['Apply patches', 'Run anti-malware software', 'Run a host-based firewall']
+explanation = "Downloading e-mail attachments does not avoid vulnerabilities (and may expose your systems to them). Patching, running anti-malware software, and using a host-based firewall are all methods to avoid vulnerabilities."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 2 - 27 4"
+question = "Which is not a password cracking technique?"
+answers = ['Reverse hashing']
+alternatives = ['Brute force', 'Dictionary attack', 'Rainbow tables']
+explanation = "Reverse hashing is not a password hacking method. Brute force, dictionary attacks, and rainbow tables are all techniques used to crack passwords."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 2 - 27 5"
+question = "Which term does not describe how malware spreads to new systems?"
+answers = ['Key logger']
+alternatives = ['Virus', 'Worm', 'Trojan']
+explanation = "The term key logger describes malware that records everything the user types. The terms virus, worm, and Trojan all describe ways that malware spreads."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 2 - 27 6"
+question = "In CompTIA's 7-step malware management process, which step immediately follows step 3 (disable System Restore)?"
+answers = ['Remediate infected systems']
+alternatives = ['Quarantine infected systems', 'Schedule scans and run updates', 'Educate users']
+explanation = "Step 4 of the 7-step system is to remediate infected systems. Step 2 is to quarantine infected systems. Step 5 is to schedule scans and run updates. Step 7 is to educate users."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 2 - 27 7"
+question = "Which is not a social engineering attack?"
+answers = ['Trojan']
+alternatives = ['Phishing', 'Tailgating', 'Shoulder surfing']
+explanation = "A Trojan is a malware distribution technique, not a social engineering attack. Phishing, tailgating, and shoulder surfing are each social engineering attacks."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 2 - 28 1"
+question = "Which is not a standard business document?"
+answers = ['Virus signature list']
+alternatives = ['Network topology diagram', 'Regulatory and compliance document', 'Acceptable use policy']
+explanation = "Virus signature lists are held and updated by anti-malware software. Network topology diagrams, regulatory/compliance documents, and acceptable use policies are all critical business documents."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 2 - 28 2"
+question = "Which is not a critical data type?"
+answers = ['Password policy']
+alternatives = ['PII', 'PHI', 'GDPR']
+explanation = "Password policies are something to be followed by all users of company resources but it isn't data that requires special handling or protection. Personally Identifiable Information (PII) and Personal Heath Information (PHI) are critical to protect. EU General Data Protection Regulation (GDPR) governs information that online providers can collect about users."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 2 - 28 3"
+question = "What is not a change-management consideration?"
+answers = ['History of changes']
+alternatives = ['Documented practices', 'Purpose of the change', 'Risk analysis']
+explanation = "History of changes is not a major focus of the change management procedure. Documenting past practices, the purpose of the proposed changes, and associated risks are all elements that are part of the change management process."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 2 - 28 4"
+question = "Which is the worst location for the only backup of some data?"
+answers = ['Same drive as the data being backed up']
+alternatives = ['External hard drive', 'USB flash drive', 'Cloud storage']
+explanation = "If a drive with live data fails, a backup saved to that drive would be lost as well. If there's only one backup, it's important to move it to another physical location. External drives, USB flash drives, and cloud storage are all better locations for a single backup. It's best, however, to keep multiple backups in multiple locations."
+hint = "None"
+
+[[questions]]
+question_number = "PM A+ 2 - 28 5"
+question = "Which is not a common device that can be recycled?"
+answers = ['Alkaline batteries']
+alternatives = ['Lithium-ion batteries', 'CRT monitors', 'Toner cartridges']
+explanation = "Alkaline batteries cannot be re-used or recycled. Toner cartridges can be refilled. Lithium-based batteries have heavy metals and toxins that can be safely recycled."
+hint = "None"
